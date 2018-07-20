@@ -1,4 +1,4 @@
-这是电子工业出版社的《深度学习框架PyTorch：入门与实践》第八章的配套代码，实现了快速风格迁移。
+# Neural-Style 神经网络风格迁移
 
 ## 1 环境准备
 
@@ -28,7 +28,7 @@ Usage： python main.py FUNCTION --key=value,--key2=value2 ..
 
 - 训练
 ```bash
-python main.py train --use-gpu --data-root=data --batch-size=2
+python main.py train --use-gpu=False --data-root=data --batch-size=2
 ```
 
 - 生成图片
